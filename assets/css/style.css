@@ -34,6 +34,11 @@ padding: 20px;
 float: left;
 
 }
+.cform {
+  width:100$
+  margin: 10px;
+
+}
 #menu {
   float:left;
   margin-left: 475px;
@@ -41,6 +46,7 @@ float: left;
 
 }
 #menu > a {
+  margin: 0px 15px;
   color: #696b70;
   text-decoration: none;
 }
@@ -83,7 +89,20 @@ h2 {
 }
 .con {
   padding: 5px;
-  width: 33.3%;
+  width: 33%;
+
+}
+#contxt {
+  width: 100%;
+}
+#submitbutton {
+  background-color: #4aaaa5;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+input.cform {
+  width: 100%;
 }
 #footer {
   position: fixed;
