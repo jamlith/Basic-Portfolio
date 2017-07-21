@@ -77,6 +77,8 @@ h2 {
   padding: 20px;
   background-color: #fff;
   text-align: justify;
+  margin-bottom: auto;
+
 }
 #connect {
   width: 300px;
@@ -121,5 +123,27 @@ input.cform {
 #bioimg {
   float: left;
   width: 25%;
-  margin-right:10px
+  margin-right:10px;
+}
+
+.portfolio_label {
+  border: gray dashed;
+  position: absolute;
+  bottom: 40px;
+  font-size: X-Large;
+  background-color: #4aaaa5;
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  width: 100%;
+}
+.portfolio_container {
+  position: relative;
+  display: inline-block;
+  width: 258px;
+  height: 250px;
+  margin: 20px;
+  background-image: url("http://lorempixel.com/200/200/sports/");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
